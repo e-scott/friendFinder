@@ -16,7 +16,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script>
     
 </head>
-
+<style>
+#resultsModal img {
+    overflow: hidden;
+    width: 200px;
+}
+</style>
 <body>
     <div class="container">
         <div class="jumbotron">
@@ -168,7 +173,7 @@
                 </div>
                 <div class="modal-body">
                     <h2 id="matchName"></h2>
-                    <img id="matchImg" src="https://via.placeholder.com/400x400" alt="Placeholder image in case user pic doesn't show">
+                    <img id="matchImg" src="https://via.placeholder.com/200x200" alt="Placeholder image in case user pic doesn't show">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
