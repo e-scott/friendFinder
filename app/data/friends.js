@@ -151,7 +151,7 @@ var friends = [
     },
     {
       "name":"Kevin",
-      "photo":"https://cdn.pixabay.com/photo/2014/07/09/10/04/man-388104_960_720.jpg",
+      "photo":"https://pxhere.com/en/photo/1203120",
       "scores":[
          5,
          1,
